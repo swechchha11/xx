@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+<h1 class="heading">HOUSE RECOMMENDATION SYSTEM</h1>
+<div class="main">
+<div class="div-questions">
+<i class="fa fa-home" aria-hidden="true"></i>
+<h1 class="result" display="none"></h1>
+<form id="form">    
+<div class="question">question comes here</div>
+<div class="row"></div>
+<input class="input"  type="number" name="row" id="row" placeholder="enter number of rows">
+<div class="column"></div>
+<input class="input" type="number" name="column" id="column" placeholder="enter number of columns">
+<input class="submit" id="submit" type="submit" value="submit">
+<div class="xx"></div>
+</form>
+
+
+
+<!-- form2 -->
+<form id="form1" >
+<div class="question1">question comes here</div>
+<div class="row1"></div>
+<input class="input1"  type="number" name="row" id="row1" placeholder="Enter plot number">
+<div class="column1"></div>
+<select id="column1" class="input1" name="building" display="block">
+ <option value="House">House</option>
+<option value="Gym">Gym</option>
+<option value="Hospital">Hospital</option>
+<option value="Restaurant">Restaurant</option>
+</select>
+<br>
+<input class="submit1" id="submit1" type="submit" value="submit">
+<input class="gethouse" id="gethouse" type="submit" value="get best house">
+<div class="xx1"></div>
+</form>
+</div>
+
+<div class="plot" id="plot"></div>
+        
+</div>
+
+
+
+
+    
+    
+<script src="main.js"></script>
+
+</body>
+</html>
